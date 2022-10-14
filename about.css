@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.about-title {
+	text-align: center;
+	margin: 20px 0;
+	margin-bottom: 30px;
+	color: #bd2909;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	min-height: 90vh;
+}
+
+.left{
+	width: 50%;
+
+}
+
+.left p {
+	text-align: justify;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	border: 1px solid #ffd700;
+	padding: 20px;
+}
+
+.logo-about {
+	width: 200px;
+	height: 200px;
+	align-self: center;
+	margin: 20px 0;
+
+}
+
+.info-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.info-title {
+	font-weight: bold;
+	color: #bd2909;
+}
+
+.website-link {
+	text-decoration: none;
+	color: black;
+}
+
+.website-link:hover {
+	color: #bd2909;
+	text-decoration: none;
+}

@@ -1,0 +1,189 @@
+body {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	background-color: #bd2909;
+	min-height: 5vh;
+}
+
+.navbar-item {
+	color: white;
+
+}
+
+.navbar-item:hover {
+	color: #ffd700;
+	text-decoration: none;
+}
+
+.navbar-item:active {
+	text-decoration: underline;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+}
+.slide-img {
+	width: 100vw;
+	height:100vh;
+}
+
+.history-title {
+	color: #bd2909;
+	margin-top: 20px;
+}
+
+.history {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	padding: 20px 0;
+}
+
+.card {
+	width: 300px;
+	height: 100%;
+	padding: 20px;
+	color: #bd2909;
+	border: 1px solid #ffd700;
+}
+
+.card h4 {
+	color: #bd2909;
+}
+
+.card p {
+	color: black;
+}
+
+.history-btn {
+	background-color: transparent;
+	border: none;
+	text-align: end;
+	cursor: pointer;
+}
+
+.history-btn a {
+	text-decoration: none;
+	color: #bd2909;
+}
+
+.history-btn a:hover {
+	color: #ffd700;
+
+}
+
+.rankings {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #bd2909;
+	padding: 20px 30px;
+	color: white;
+	margin-top: 20px;
+
+}
+
+.rankings h4 {
+	color: #ffd700;
+	margin-bottom: 20px;
+}
+
+.rankings ul li {
+	margin: 10px 0;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 40px 0;
+}
+
+.gallery-img {
+	width: 300px;
+	height: 200px;
+}
+
+.gallery-btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100vw;
+	padding: 0 30px;
+}
+
+.gallery-btn a {
+	background-color: transparent;
+	border: none;
+	color: #bd2909;
+	font-size: 2em;
+}
+
+.gallery-btn a:hover {
+	text-decoration: none;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	padding: 20px 30px;
+	background-color: #bd2909;
+	margin-top: 20px;
+	min-height: 5vh;
+
+}
+
+.footer p {
+	margin: 0;
+	color: #ffd700;
+}
+
+.scroll-to-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffd700;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+
+.scroll-to-top:hover {
+	transform: scale(1.1);
+}
+
+.scroll-to-top a {
+	margin-top: 0.2rem;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+
+.social-media img {
+	width: 30px;
+	height: 30px;
+	margin: 0 10px;
+}
+
+.social-media img:hover {
+	transform: scale(1.1);
+}
